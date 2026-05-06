@@ -392,11 +392,11 @@
     btnBgRemove.textContent = '加载模型…';
     try {
       const { removeBackground } = await import(
-        'https://cdn.jsdelivr.net/npm/@imgly/background-removal@1.4.5/+esm'
+        'https://cdn.jsdelivr.net/npm/@imgly/background-removal@1.7.0/+esm'
       );
       btnBgRemove.textContent = '处理中…';
       const blob = await removeBackground(originalFile, {
-        publicPath: 'https://cdn.jsdelivr.net/npm/@imgly/background-removal@1.4.5/dist/',
+        publicPath: 'https://cdn.jsdelivr.net/npm/@imgly/background-removal@1.7.0/+esm',
       });
       const url = URL.createObjectURL(blob);
       const newImg = new Image();

@@ -1,6 +1,6 @@
 {
-    "name": "CN Passport Photo",
-    "short_name": "CN Passport Photo",
+    "name": "Passport Photo",
+    "short_name": "Passport Photo",
     "description": "Crop photos to Chinese passport photo size (33×48mm) with white background.",
     "start_url": "./index.html",
     "display": "standalone",

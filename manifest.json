@@ -1,7 +1,7 @@
 {
     "name": "Passport Photo",
     "short_name": "Passport Photo",
-    "description": "Crop photos to Chinese passport photo size (33×48mm) with white background.",
+    "description": "Crop passport photos for China (33×48mm) and New Zealand (3:4 ratio) with AI white background removal.",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#ffffff",
